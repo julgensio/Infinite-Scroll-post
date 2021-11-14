@@ -50,6 +50,7 @@ h2 {
 }
 
 .filter-container .filter {
+  font-size: 1rem;
   width: 100%;
   padding: 1rem;
   border-radius: 1rem;
@@ -70,7 +71,7 @@ h2 {
   max-width: 50rem;
 }
 
-#posts-container .post .title {
+#posts-container .post .post-title {
   margin: 0;
   font-size: 2rem;
 }
@@ -117,7 +118,7 @@ h2 {
   transition: opacity 0.3s ease-in;
 }
 
-.loader .show {
+.show {
   opacity: 1;
 }
 

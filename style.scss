@@ -40,6 +40,7 @@ h2 {
 	max-width: 40vw;
 
 	.filter {
+		font-size: 1rem;
 		width: 100%;
 		padding: 1rem;
 		border-radius: 1rem;
@@ -58,7 +59,7 @@ h2 {
 		width: 80vw;
 		max-width: 50rem;
 
-		.title {
+		.post-title {
 			margin: 0;
 			font-size: 2rem;
 		}
@@ -97,10 +98,9 @@ h2 {
 	position: fixed;
 	bottom: 3.125rem;
 	transition: opacity 0.3s ease-in;
-
-	.show {
-		opacity: 1;
-	}
+}
+.show {
+	opacity: 1;
 }
 
 .circle {
